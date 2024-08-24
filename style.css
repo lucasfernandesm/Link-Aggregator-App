@@ -81,7 +81,7 @@ main #switch button {
     animation:slide-back 0.2s;
 }
 
-main .light #switch button {
+.light #switch button {
     animation: slide-in 0.4s forwards;
 }
 
