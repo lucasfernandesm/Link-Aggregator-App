@@ -15,11 +15,11 @@ The link aggregator is an extension of your Instagram bio and other content or s
 
 <br><br>
 <h1 align="center">
-  <img alt="Link Aggregator project" src="./assets/LinkAggregatorBanner.png" width="600"/>
+  <img alt="Link Aggregator project" src="./Assets/assets/LinkAggregatorBanner.png" width="600"/>
 </h1>
 
 <h1 align="center">
-  <img alt="Link Aggregator project" src="./assets/LinkAggregatorBanner2.png" width="600"/>
+  <img alt="Link Aggregator project" src="./Assets/assets/LinkAggregatorBanner2.png" width="600"/>
 </h1>
 
 <br><br>
