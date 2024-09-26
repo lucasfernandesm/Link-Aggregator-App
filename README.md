@@ -38,7 +38,7 @@ This project was developed with the following technologies:
   - Tool that allows you to bring together several links on a single page, facilitating access to different content </br>
   - It has dark mode and light mode, making the change with just one click interactively </br>
   - Profile photo changes along with the screen mode </br>
-  - Responsive design, better user experiencee </br>
+  - Responsive design, capable of adapting to different screen sizes, better user experience </br>
   - Project developed during the Full-stack Training course via the platform [Rocketseat](https://app.rocketseat.com.br) </br>
 
 <br><br>
