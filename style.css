@@ -8,7 +8,7 @@
 :root {
     font-size: 62.5%;
     --text-color: white;
-    --bg-url: url(./Assets/assets/bg-mobile.jpg);
+    --bg-url: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
     --stroke-color: rgba(255, 255, 255, 0.5);
     --surface-color: rgba(255, 255, 255, 0.1);
     --surface-color-hover: rgba(255, 255, 255, 0.05);
@@ -19,7 +19,7 @@
 /*light mode*/
 .light {
     --text-color: black;
-    --bg-url: url(./Assets/assets/bg-mobile-light.jpg);
+    --bg-url: radial-gradient(circle at 10% 20%, rgb(242, 235, 243) 0%, rgb(234, 241, 249) 90.1%);
     --stroke-color: rgba(0, 0, 0, 0.5);
     --surface-color: rgba(0, 0, 0, 0.05);
     --surface-color-hover: rgba(0, 0, 0, 0.02);
@@ -29,34 +29,49 @@
 
 body {
     font-size: 1.6rem;
-    background: var(--bg-url) no-repeat top center/cover;
+   
+    background: var(--bg-url);
 }
 
 body * {
-    font-family: "Inter", sans-serif;
+    font-family: "Montserrat", sans-serif;
     color: var(--text-color);
+}
+
+header, footer {
+    text-align: center;
+    padding: 2rem;
+    background-color:rgb(255, 124, 0);
+}
+
+header h1 {
+    font-family: "Afacad Flux", sans-serif;
+    font-size: 3.6rem;
+    font-weight: 500;
 }
 
 main {
     width: 100%;
-    max-width: 48rem;
-    margin: 5.6rem auto 0;
+    max-width: 43rem;
+    margin: 1rem auto 0;
     padding: 0 2.4rem;
 }
 
 main #profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1.5rem;
+}
+
+main #profile p {
     text-align: center;
-    padding: 2.4rem;
 }
 
 main #profile img {
-    width: 11.2rem;
-}
-main #profile p {
-    font-weight: 400;
-    font-size: 1.6rem;
-    line-height: 2.4rem;
-    margin-top: .8rem;
+    width: 14rem;
 }
 
 main #switch {
@@ -104,8 +119,8 @@ main ul {
     list-style: none;
     display: flex;
     flex-direction: column;
-    gap: 1.6rem;
-    padding: 2.4rem 0;
+    gap: 1.5rem;
+    padding: 1.5rem 0;
 }
 
 main ul li a {
@@ -116,7 +131,7 @@ main ul li a {
 
     background: var(--surface-color);
     border: 1px solid var(--stroke-color);
-    border-radius: .8rem;
+    border-radius: 2.7rem;
 
     backdrop-filter: .4rem;
     -webkit-backdrop-filter: blur(.4rem);
@@ -130,6 +145,15 @@ main ul li a {
 main ul li a:hover {
     background: var(--surface-color-hover);
     border: 1.5px solid var(--text-color);
+}
+
+main h2 {
+    text-align: center;
+    margin: 1rem 0 1rem;
+}
+
+.certifications {
+    padding: 1rem;
 }
 
 main #social-links {
@@ -148,23 +172,6 @@ main #social-links a {
 }
 main #social-links a:hover {
     background: var(--highlight-color);
-}
-
-footer {
-    text-align: center;
-    padding: 2.4rem 0;
-    font-size: 1.4rem;
-    margin-bottom: 4rem;
-}
-
-@media (min-width: 700px) {
-    :root {
-        --bg-url: url(./Assets/assets/bg-desktop.jpg);
-    }
-
-    .light {
-        --bg-url: url(./Assets/assets/bg-desktop-light.jpg);
-    }
 }
 
 @keyframes slide-in {
