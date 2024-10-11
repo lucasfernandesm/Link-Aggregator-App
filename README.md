@@ -1,7 +1,7 @@
 <h1 align="center"> Link aggregator </h1>
 
 <p align="center">
-The link aggregator is an extension of your Instagram bio and other content or sales channels. In a single link, you can add all public contact networks and with just one click take potential customers to you.
+The link aggregator is an extension of your Instagram bio and other social networks or sales channels. In a single link, you can add all public contact networks or other relevant information and with just one click take potential customers to you.
 </p>
 
 <p align="center">
@@ -39,7 +39,7 @@ This project was developed with the following technologies:
   - It has dark mode and light mode, making the change with just one click interactively </br>
   - Profile photo changes along with the screen mode </br>
   - Responsive design, capable of adapting to different screen sizes, better user experience </br>
-  - Project developed during the Full-stack Training course via the platform [Rocketseat](https://app.rocketseat.com.br) </br>
+  - Personal project developed to meet a need I have to share my contacts and a little about my qualifications </br>
 
 <br><br>
 <h2 align="left" id="Link-to-view"> <img src=https://github.com/user-attachments/assets/01c56b54-2205-4397-8f3a-ee4474e317ff alt="Icon - Link to view" style="width:26px;">&nbsp;&nbsp; Link to view </h2>
